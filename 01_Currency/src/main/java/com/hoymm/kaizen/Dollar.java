@@ -1,18 +1,12 @@
 package com.hoymm.kaizen;
 
-class Dollar {
-    private int amount;
-
+class Dollar extends Currency{
     Dollar(int amount){
-        this.amount = amount;
-    }
-
-    Dollar times (int multipler){
-        return new Dollar(amount * multipler);
+        super(amount);
     }
 
     @Override
     public boolean equals(Object object){
-        return amount == ((Dollar)object).amount;
+        return super.equals(object);
     }
 }

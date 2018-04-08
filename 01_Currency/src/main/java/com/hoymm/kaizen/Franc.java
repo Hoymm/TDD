@@ -1,18 +1,12 @@
 package com.hoymm.kaizen;
 
-public class Franc {
-    private int amount;
-
-    Franc(int amount){
-        this.amount = amount;
-    }
-
-    Franc times (int multipler){
-        return new Franc(amount * multipler);
+public class Franc extends Currency{
+    Franc(int amount) {
+        super(amount);
     }
 
     @Override
     public boolean equals(Object object){
-        return amount == ((Franc)object).amount;
+        return super.equals(object);
     }
 }
