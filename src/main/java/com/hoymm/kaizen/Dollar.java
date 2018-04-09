@@ -1,8 +1,10 @@
 package com.hoymm.kaizen;
 
 class Dollar extends Money {
+    private String currency;
     Dollar(int amount){
         super(amount);
+        currency = "USD";
     }
 
     Money times (int multipler){
@@ -11,6 +13,6 @@ class Dollar extends Money {
 
     @Override
     String currency(){
-        return "USD";
+        return currency;
     }
 }
