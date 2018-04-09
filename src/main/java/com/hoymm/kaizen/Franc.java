@@ -1,12 +1,11 @@
 package com.hoymm.kaizen;
 
-public class Franc extends Currency{
+public class Franc extends Money {
     Franc(int amount) {
         super(amount);
     }
 
-    @Override
-    public boolean equals(Object object){
-        return super.equals(object);
+    Franc times (int multipler){
+        return new Franc(amount * multipler);
     }
 }

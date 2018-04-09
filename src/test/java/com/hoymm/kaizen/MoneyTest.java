@@ -5,7 +5,7 @@ import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
-public class CurrencyTest {
+public class MoneyTest {
 
     @Test
     public void testDollarMultiplication(){
@@ -25,5 +25,8 @@ public class CurrencyTest {
     public void testEquality(){
         assertTrue(new Dollar(5).equals(new Dollar(5)));
         assertFalse(new Dollar(5).equals(new Dollar(6)));
+        assertTrue(new Franc(5).equals(new Franc(5)));
+        assertFalse(new Franc(5).equals(new Franc(6)));
+        assertFalse(new Franc(5).equals(new Dollar(5)));
     }
 }
