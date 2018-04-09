@@ -33,8 +33,8 @@
       <file leaf-file-name="MoneyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="385">
+              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -42,8 +42,8 @@
       <file leaf-file-name="Money.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="21" column="5" selection-start-line="19" selection-start-column="31" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding>
                 <element signature="e#523#524#0" expanded="true" />
                 <element signature="e#585#586#0" expanded="true" />
@@ -53,8 +53,9 @@
                 <element signature="e#581#582#0" expanded="true" />
                 <element signature="e#619#620#0" expanded="true" />
                 <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,9 +71,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/CurrencyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Currency.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Money.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Franc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Money.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java" />
       </list>
     </option>
@@ -254,12 +255,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoneyTest - 2018.04.09 at 20h 41m 01s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2018.04.09 at 20h 42m 18s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MoneyTest - 2018.04.09 at 20h 43m 08s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
@@ -282,6 +277,12 @@
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MoneyTest - 2018.04.09 at 21h 12m 44s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2018.04.09 at 21h 18m 55s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2018.04.09 at 21h 19m 49s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -341,8 +342,9 @@
             <element signature="e#581#582#0" expanded="true" />
             <element signature="e#619#620#0" expanded="true" />
             <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -389,8 +391,9 @@
             <element signature="e#581#582#0" expanded="true" />
             <element signature="e#619#620#0" expanded="true" />
             <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -470,8 +473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="5" selection-start-line="19" selection-start-column="31" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
             <element signature="e#523#524#0" expanded="true" />
             <element signature="e#585#586#0" expanded="true" />
@@ -481,16 +484,17 @@
             <element signature="e#581#582#0" expanded="true" />
             <element signature="e#619#620#0" expanded="true" />
             <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="385">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
         </state>
       </provider>
     </entry>
