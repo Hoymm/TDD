@@ -1,6 +1,6 @@
 package com.hoymm.kaizen;
 
-abstract class Money {
+class Money {
     protected int amount;
     protected String currency;
 
@@ -11,12 +11,15 @@ abstract class Money {
 
     @Override
     public boolean equals(Object object){
-        boolean classEquality = getClass().equals(object.getClass());
-        boolean amountEquality = amount == ((Money)object).amount;
-        return classEquality && amountEquality;
+        Money money = (Money)object;
+        boolean currencyEquality = currency().equals(money.currency());
+        boolean amountEquality = amount == money.amount;
+        return currencyEquality && amountEquality;
     }
 
-    abstract Money times(int multipler);
+    Money times(int multipler){
+        return null;
+    }
 
     static Money dollar(int amount){
         return new Dollar(amount, "USD");
@@ -28,5 +31,10 @@ abstract class Money {
 
     String currency(){
         return currency;
+    }
+
+    @Override
+    public String toString(){
+        return amount + " " + currency;
     }
 }
