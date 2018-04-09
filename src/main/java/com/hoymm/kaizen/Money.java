@@ -1,6 +1,6 @@
 package com.hoymm.kaizen;
 
-class Money {
+class Money implements Expression{
     protected int amount;
     protected String currency;
 
