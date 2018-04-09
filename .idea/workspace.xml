@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d4cb50a-7023-4a5c-a87b-69a0929f7e29" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MoneyTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MoneyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+            <state relative-caret-position="330">
+              <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -51,7 +52,7 @@
       <file leaf-file-name="Money.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="308">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#523#524#0" expanded="true" />
@@ -71,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
@@ -104,13 +105,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Currency.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Franc.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Money.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Bank.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="946" />
     <option name="height" value="735" />
   </component>
@@ -287,9 +288,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoneyTest - 2018.04.09 at 20h 46m 08s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MoneyTest - 2018.04.09 at 20h 47m 45s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
@@ -317,9 +315,12 @@
     <history-entry file="MoneyTest - 2018.04.09 at 21h 37m 06s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MoneyTest - 2018.04.09 at 21h 38m 30s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1081" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -331,11 +332,11 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32924336" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44683027" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44683027" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32924336" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947916" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24166666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -514,7 +515,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="308">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#523#524#0" expanded="true" />
@@ -533,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -548,6 +542,13 @@
             <element signature="e#93#94#0" expanded="true" />
             <element signature="e#120#121#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
         </state>
       </provider>
     </entry>
