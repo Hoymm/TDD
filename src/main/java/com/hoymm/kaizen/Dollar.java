@@ -2,8 +2,7 @@ package com.hoymm.kaizen;
 
 class Dollar extends Money {
     Dollar(int amount, String currency){
-        super(amount);
-        this.currency = currency;
+        super(amount, currency);
     }
 
     Money times (int multipler){

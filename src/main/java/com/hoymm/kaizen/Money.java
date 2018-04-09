@@ -4,8 +4,9 @@ abstract class Money {
     protected int amount;
     protected String currency;
 
-    Money(int amount){
+    Money(int amount, String currency) {
         this.amount = amount;
+        this.currency = currency;
     }
 
     @Override
