@@ -33,6 +33,10 @@ class Money {
         return currency;
     }
 
+    Money plus(Money addend){
+        return new Money(amount + addend.amount, currency);
+    }
+
     @Override
     public String toString(){
         return amount + " " + currency;
