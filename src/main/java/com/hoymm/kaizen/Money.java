@@ -2,6 +2,7 @@ package com.hoymm.kaizen;
 
 abstract class Money {
     protected int amount;
+    protected String currency;
 
     Money(int amount){
         this.amount = amount;
@@ -24,5 +25,7 @@ abstract class Money {
         return new Franc(amount);
     }
 
-    abstract String currency();
+    String currency(){
+        return currency;
+    }
 }
