@@ -33,8 +33,8 @@ class Money implements Expression{
         return currency;
     }
 
-    Money plus(Money addend){
-        return new Money(amount + addend.amount, currency);
+    Expression plus(Money addend){
+        return new Sum(this, addend);
     }
 
     @Override
