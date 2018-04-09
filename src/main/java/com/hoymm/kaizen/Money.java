@@ -21,6 +21,6 @@ abstract class Money {
     }
 
     static Money franc(int amount){
-        return new Dollar(amount);
+        return new Franc(amount);
     }
 }
