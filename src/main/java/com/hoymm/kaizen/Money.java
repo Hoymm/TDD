@@ -17,8 +17,8 @@ class Money {
         return currencyEquality && amountEquality;
     }
 
-    Money times(int multipler){
-        return null;
+    Money times (int multipler){
+        return new Money(amount * multipler, currency);
     }
 
     static Money dollar(int amount){
