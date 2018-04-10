@@ -1,18 +1,17 @@
 package com.hoymm.kaizen;
 
 class Sum implements Expression{
+    Money augend;
+    Money addend;
 
     Sum(Money augend, Money addend) {
         this.augend = augend;
         this.addend = addend;
     }
 
-    Money augend;
-    Money addend;
-
     @Override
     public Money reduce(Bank bank, String to){
-        int amount = augend.amount + addend.amount;
+        int amount = augend.reduce(bank, to).amount + addend.reduce(bank, to).amount;
         return new Money(amount, to);
     }
 }
