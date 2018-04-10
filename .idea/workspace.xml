@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d4cb50a-7023-4a5c-a87b-69a0929f7e29" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hoymm/kaizen/Money.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hoymm/kaizen/Money.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hoymm/kaizen/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hoymm/kaizen/Sum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hoymm/kaizen/MoneyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hoymm/kaizen/MoneyTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MoneyTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoneyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+            <state relative-caret-position="324">
+              <caret line="100" column="5" lean-forward="true" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2211#2212#0" expanded="true" />
@@ -37,8 +33,8 @@
       <file leaf-file-name="Money.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="360">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#543#544#0" expanded="true" />
                 <element signature="e#605#606#0" expanded="true" />
@@ -56,17 +52,21 @@
       <file leaf-file-name="Expression.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Expression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="72">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sum.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Sum.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="342">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,12 +108,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Currency.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Franc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Expression.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/EqualityTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Bank.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Sum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Expression.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Money.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Sum.java" />
       </list>
     </option>
   </component>
@@ -348,21 +348,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoneyTest - 2018.04.10 at 10h 28m 18s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2018.04.10 at 10h 34m 00s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2018.04.10 at 10h 34m 46s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2018.04.10 at 10h 41m 22s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2018.04.10 at 14h 25m 10s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MoneyTest - 2018.04.10 at 14h 27m 00s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
@@ -376,6 +361,21 @@
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MoneyTest - 2018.04.10 at 14h 46m 21s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2018.04.10 at 14h 53m 28s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2018.04.10 at 14h 55m 42s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2018.04.10 at 14h 58m 42s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2018.04.10 at 15h 01m 21s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2018.04.10 at 15h 01m 43s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -455,6 +455,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
+          <folding>
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -610,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Expression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -632,17 +629,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Sum.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="324">
+          <caret line="100" column="5" lean-forward="true" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+            <element signature="e#2241#2242#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="360">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#543#544#0" expanded="true" />
             <element signature="e#605#606#0" expanded="true" />
@@ -656,14 +658,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hoymm/kaizen/MoneyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Expression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+        <state relative-caret-position="72">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hoymm/kaizen/Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2211#2212#0" expanded="true" />
-            <element signature="e#2241#2242#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
           </folding>
         </state>
       </provider>
