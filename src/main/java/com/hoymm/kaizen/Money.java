@@ -17,7 +17,8 @@ class Money implements Expression{
         return currencyEquality && amountEquality;
     }
 
-    Expression times (int multipler){
+    @Override
+    public Expression times (int multipler){
         return new Money(amount * multipler, currency);
     }
 
