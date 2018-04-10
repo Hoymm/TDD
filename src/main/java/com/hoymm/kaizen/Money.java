@@ -41,4 +41,9 @@ class Money implements Expression{
     public String toString(){
         return amount + " " + currency;
     }
+
+    @Override
+    public Money reduce(String to){
+        return this;
+    }
 }
