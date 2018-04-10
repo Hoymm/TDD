@@ -17,7 +17,7 @@ class Money implements Expression{
         return currencyEquality && amountEquality;
     }
 
-    Money times (int multipler){
+    Expression times (int multipler){
         return new Money(amount * multipler, currency);
     }
 
@@ -33,7 +33,8 @@ class Money implements Expression{
         return currency;
     }
 
-    Expression plus(Money addend){
+    @Override
+    public Expression plus(Expression addend){
         return new Sum(this, addend);
     }
 
