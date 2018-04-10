@@ -73,4 +73,5 @@ public class MoneyTest {
         Money result = bank.reduce(Money.franc(2), "USD");
         assertEquals(Money.dollar(1), result);
     }
+
 }
