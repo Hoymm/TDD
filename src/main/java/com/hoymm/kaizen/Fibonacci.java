@@ -1,11 +1,26 @@
 package com.hoymm.kaizen;
+import java.util.HashMap;
+import java.util.Map;
 
 class Fibonacci {
-    int getValueOf(int i) {
-        if (i <= 0)
-            return 0;
+    private Map<Integer, Long> fibIndexToValue;
+
+    Fibonacci() {
+        fibIndexToValue = new HashMap<>();
+    }
+
+    long getValueOf(int i) {
+        if (!fibIndexToValue.containsKey(i))
+            addNewValueToMap(i);
+        return fibIndexToValue.get(i);
+    }
+
+    private void addNewValueToMap(int i) {
+        if (i == 0)
+            fibIndexToValue.put(0, 0L);
         else if (i == 1)
-            return 1;
-        return getValueOf(i-1)+getValueOf(i-2);
+            fibIndexToValue.put(1, 1L);
+        else
+            fibIndexToValue.put(i, getValueOf(i-1)+getValueOf(i-2));
     }
 }
