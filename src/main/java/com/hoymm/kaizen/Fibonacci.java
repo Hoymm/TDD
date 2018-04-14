@@ -10,6 +10,8 @@ class Fibonacci {
     }
 
     long getValueOf(int i) {
+        if (i < 0)
+            throw new IllegalArgumentException("Number element must be higher or equal to zero, you passed: " + i);
         if (!fibIndexToValue.containsKey(i))
             addNewValueToMap(i);
         return fibIndexToValue.get(i);

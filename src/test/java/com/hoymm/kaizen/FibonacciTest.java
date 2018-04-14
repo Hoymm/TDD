@@ -14,12 +14,12 @@ public class FibonacciTest {
 
     @Test
     public void fibonacciIndex0_shouldReturnValue0(){
-        Assert.assertEquals(0L, fibonacci.getValueOf(0));
+        Assert.assertEquals(0, fibonacci.getValueOf(0));
     }
 
     @Test
     public void fibonacciIndex1_shouldReturnValue1(){
-        Assert.assertEquals(1L, fibonacci.getValueOf(1));
+        Assert.assertEquals(1, fibonacci.getValueOf(1));
     }
 
     @Test
@@ -43,7 +43,13 @@ public class FibonacciTest {
     }
 
     @Test (timeout = 20)
-    public void searchForIndex60_shouldGive1548008755920InUnder200ms(){
+    public void searchForIndex60_shouldGive1548008755920InUnder20ms(){
         Assert.assertEquals(1548008755920L, fibonacci.getValueOf(60));
     }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void getValueOfNegativeIndex_shouldThrowIllegalArgumentException(){
+        fibonacci.getValueOf(-3);
+    }
+
 }
